@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,kBAAkB;AAClB,kBAAkB;ACDlB,kBAAkB;AAClB,iBAAiB;ACDjB,kBAAkB;AAClB,iBAAiB;ACDjB,kBAAkB;AAClB,kBAAkB",
+"sources": ["../sass/pages/home.scss","../sass/pages/columnistas.scss","../sass/pages/blogs.scss","../sass/pages/contacto.scss"],
+"names": [],
+"file": "main.css"
+}
