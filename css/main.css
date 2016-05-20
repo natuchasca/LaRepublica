@@ -1,3 +1,26 @@
+/* HEADER */
+.gris-bar {
+  background-color: #e3e3e3; }
+  .gris-bar ul {
+    display: list-inline; }
+
+/* FOOTER */
+footer {
+  background-color: #e3e3e3;
+  padding: 30px 0px; }
+  footer .logo-footer {
+    margin-top: 100px;
+    margin-right: 20px; }
+  footer p {
+    font-size: 12px;
+    margin-bottom: 2px; }
+  footer .separador {
+    border-left: 1px solid white;
+    padding-left: 20px;
+    margin-right: 10px; }
+  footer .textos {
+    width: 170px; }
+
 /* ------------ */
 /* ----HOME---- */
 /* ------------ */
@@ -6,5 +29,26 @@
 /* ---BLOGS--- */
 /* ------------ */
 /* --CONTACTO-- */
+.contacto form {
+  margin: 30px 0px 70px 0px; }
+  .contacto form textarea {
+    background-color: #ededed;
+    border: 1px solid grey;
+    padding-left: 10px;
+    width: 100%;
+    margin-bottom: 20px; }
+  .contacto form .input {
+    background-color: #ededed;
+    border: 1px solid grey;
+    padding-left: 10px;
+    width: 100%;
+    height: 35px;
+    margin-top: 20px; }
+  .contacto form .destinatario {
+    margin: 30px 0px; }
+  .contacto form .btn-lg {
+    background-color: #141414;
+    padding: 10px 100px;
+    color: white; }
 
 /*# sourceMappingURL=main.css.map */

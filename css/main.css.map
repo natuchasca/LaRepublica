@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,kBAAkB;AAClB,kBAAkB;ACDlB,kBAAkB;AAClB,iBAAiB;ACDjB,kBAAkB;AAClB,iBAAiB;ACDjB,kBAAkB;AAClB,kBAAkB",
-"sources": ["../sass/pages/home.scss","../sass/pages/columnistas.scss","../sass/pages/blogs.scss","../sass/pages/contacto.scss"],
+"mappings": "AAAA,YAAY;AAEZ,SAAU;EACT,gBAAgB,ECHJ,OAAO;EDInB,YAAG;IACF,OAAO,EAAE,WAAW;;AELtB,YAAY;AAEZ,MAAO;EACN,gBAAgB,EDHJ,OAAO;ECInB,OAAO,EAAE,QAAQ;EACjB,mBAAa;IACZ,UAAU,EAAE,KAAK;IACjB,YAAY,EAAE,IAAI;EAEnB,QAAE;IACD,SAAS,EAAE,IAAI;IACf,aAAa,EAAE,GAAG;EAEnB,iBAAW;IACV,WAAW,EAAE,eAAe;IAC5B,YAAY,EAAE,IAAI;IAClB,YAAY,EAAE,IAAI;EAGnB,cAAQ;IACP,KAAK,EAAE,KAAK;;ACpBd,kBAAkB;AAClB,kBAAkB;ACDlB,kBAAkB;AAClB,iBAAiB;ACDjB,kBAAkB;AAClB,iBAAiB;ACDjB,kBAAkB;AAClB,kBAAkB;AAGjB,cAAK;EACJ,MAAM,EAAE,iBAAiB;EACzB,uBAAS;ICLV,gBAAgB,ENCL,OAAO;IMAlB,MAAM,EAAE,cAAc;IACtB,YAAY,EAAE,IAAI;IAClB,KAAK,EAAE,IAAI;IDIT,aAAa,EAAE,IAAI;EAEpB,qBAAO;ICTR,gBAAgB,ENCL,OAAO;IMAlB,MAAM,EAAE,cAAc;IACtB,YAAY,EAAE,IAAI;IAClB,KAAK,EAAE,IAAI;IDQT,MAAM,EAAE,IAAI;IACZ,UAAU,EAAE,IAAI;EAEjB,4BAAc;IACb,MAAM,EAAE,QAAQ;EAEjB,sBAAQ;IACP,gBAAgB,ELhBX,OAAO;IKiBZ,OAAO,EAAE,UAAU;IACnB,KAAK,EAAE,KAAK",
+"sources": ["../sass/layout/header.scss","../sass/helpers/variables.scss","../sass/layout/footer.scss","../sass/pages/home.scss","../sass/pages/columnistas.scss","../sass/pages/blogs.scss","../sass/pages/contacto.scss","../sass/helpers/mixims.scss"],
 "names": [],
 "file": "main.css"
 }

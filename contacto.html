@@ -20,7 +20,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-16">
-					<h1>Contáctese con nosotros</h1>
+					<h1 class="text-center">Contáctese con nosotros</h1>
 					<p>Llena este formulario si necesita enviarnos alguna información acerca del contendo del sitio web, su funcionalidad, o si tiene alguna propuesta de información o mejora para el sitio. Así mismo, puede hacer llegar a los redactores su opinión acerca de los contenidos de una determinada sección el cual podrá elegir como destinatario</p>
 				</div>
 			</div>
@@ -28,48 +28,54 @@
 				<div class="col-md-12 col-md-offset-2">
 					<form action="">
 						<div class="row">
-							<input type="text" placeholder="Nombres Completos">
+							<input type="text" placeholder="Nombres Completos" class="input">
 						</div>
 						<div class="row">
-							<input type="text" placeholder="Correo electrónico">
+							<input type="text" placeholder="Correo electrónico" class="input">
 						</div>
 						<div class="row">
-							<input type="text" placeholder="Teléfonos">
+							<input type="text" placeholder="Teléfonos" class="input">
 							(Opcional)
 						</div>
-						<h4>Elija un destinatario</h4>
-						<div class="radio">
-						  	<label>
-						    	<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> Sugerencias para el sitio web
-						  	</label>
+						<div class="destinatario">
+							<h4>Elija un destinatario</h4>
+							<div class="radio">
+							  	<label>
+							    	<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> Sugerencias para el sitio web
+							  	</label>
+							</div>
+							<div class="radio">
+							  	<label>
+							    	<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> Dirección periodística
+							  	</label>
+							</div>
+							<div class="radio">
+							  	<label>
+							    	<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> Direciión comercial
+							  	</label>
+							</div>
+							<div class="radio">
+							  	<label>
+							    	<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> Cartas al director
+							  	</label>
+							</div>
+							<div class="radio">
+							  	<label>
+							    	<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> Promociones y productos del diario
+							  	</label>
+							</div>
+							<div class="radio">
+							  	<label>
+							    	<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> Archivo periodístico
+							  	</label>
+							</div>
 						</div>
-						<div class="radio">
-						  	<label>
-						    	<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> Dirección periodística
-						  	</label>
+						<div class="row">
+							<textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
 						</div>
-						<div class="radio">
-						  	<label>
-						    	<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> Direciión comercial
-						  	</label>
+						<div class="row text-center">
+							<button type="button" class="btn  btn-lg">ENVIAR</button>
 						</div>
-						<div class="radio">
-						  	<label>
-						    	<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> Cartas al director
-						  	</label>
-						</div>
-						<div class="radio">
-						  	<label>
-						    	<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> Promociones y productos del diario
-						  	</label>
-						</div>
-						<div class="radio">
-						  	<label>
-						    	<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> Archivo periodístico
-						  	</label>
-						</div>
-						<textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-						<button type="button" class="btn btn-primary btn-lg">ENVIAR</button>
 					</form>
 				</div>
 			</div>
@@ -81,15 +87,15 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 logo-footer">
 					<img src="image/logo-grupo-la-republica.png" height="62" width="200" alt="">
-					<h3>Grupo La República Digital</h3>
+					<h4>Grupo La República Digital</h4>
 					<p>Jr. Camaná 20 Cercado de Lima</p>
 					<p>Teléfono: 711-6000</p>
 					<p>(Central Telefónica)</p>
 					<h6>Todos los derechos reservados - 2015</h6>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-2 textos separador">
 					<p>Roger Federer</p>
 					<p>SBS</p>
 					<p>Scarlett Johansson</p>
@@ -112,7 +118,7 @@
 					<p>Play</p>
 					<p>BCP</p>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-2 textos">
 					<p>Roger Federer</p>
 					<p>SBS</p>
 					<p>Scarlett Johansson</p>
@@ -135,7 +141,7 @@
 					<p>Play</p>
 					<p>BCP</p>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-2 textos">
 					<p>Roger Federer</p>
 					<p>SBS</p>
 					<p>Scarlett Johansson</p>
@@ -158,7 +164,7 @@
 					<p>Play</p>
 					<p>BCP</p>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-2 textos">
 					<p>Roger Federer</p>
 					<p>SBS</p>
 					<p>Scarlett Johansson</p>
@@ -180,6 +186,12 @@
 					<p>BBVA</p>
 					<p>Play</p>
 					<p>BCP</p>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-md-16 text-center">
+					<p>Diarios de PAL: <a href="">Clarín</a> | <a href="">La Tercera</a> | <a href="">El Universal Colombia</a> | <a href="">El Universal Venezuela</a> | <a href="">Vanguardia</a> | <a href="">La Prensa</a> | <a href="">El Salvador</a> | <a href="">La Verdad</a> | <a href="">Diario Libre</a> | <a href="">El diario de hoy</a> | <a href="">El Colombiano</p>
 				</div>
 			</div>
 		</div>
