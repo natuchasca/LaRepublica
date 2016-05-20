@@ -4,6 +4,49 @@
 /* COLUMNISTAS */
 /* ------------ */
 /* ---BLOGS--- */
+.cuadro {
+  border: 2px solid #e3e3e3;
+  width: 290px;
+  height: 250px;
+  margin: 10px;
+  content: " "; }
+  .cuadro .ecuadro {
+    width: 270px;
+    height: 120px; }
+  .cuadro .recuadro {
+    background-color: #e3e3e3;
+    width: 270px;
+    height: 107px;
+    display: block; }
+  .cuadro .im {
+    border: 2px solid #FFFFFF;
+    margin: 10px; }
+
+.B {
+  color: #141414; }
+
+.B1 {
+  color: #141414;
+  padding: 10px;
+  vertical-align: middle;
+  text-align: center; }
+
+.B2 {
+  color: #141414;
+  vertical-align: middle; }
+
+.Grios {
+  color: #9C9393;
+  text-align: center;
+  margin-top: -12px; }
+
+.gris {
+  color: #9C9393; }
+
+p {
+  text-align: center;
+  padding-top: 20px; }
+
 /* ------------ */
 /* --CONTACTO-- */
 

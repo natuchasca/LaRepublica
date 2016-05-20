@@ -1,0 +1,7 @@
+@mixin repisa{
+	&:before , &:after{
+		content: " ";
+		display: block;
+		clear: both;
+	}
+}

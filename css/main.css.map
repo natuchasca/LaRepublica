@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,kBAAkB;AAClB,kBAAkB;ACDlB,kBAAkB;AAClB,iBAAiB;ACDjB,kBAAkB;AAClB,iBAAiB;ACDjB,kBAAkB;AAClB,kBAAkB",
-"sources": ["../sass/pages/home.scss","../sass/pages/columnistas.scss","../sass/pages/blogs.scss","../sass/pages/contacto.scss"],
+"mappings": "AAAA,kBAAkB;AAClB,kBAAkB;ACDlB,kBAAkB;AAClB,iBAAiB;ACAjB,kBAAkB;AAClB,iBAAiB;AACjB,OAAO;EACN,MAAM,EAAE,iBAAqB;EAC7B,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,GAAG;EACZ,gBAAQ;IACH,KAAK,EAAE,KAAK;IACZ,MAAM,EAAE,KAAK;EAEd,iBAAS;IACJ,gBAAgB,ECdb,OAAO;IDeZ,KAAK,EAAE,KAAK;IACZ,MAAM,EAAE,KAAK;IACb,OAAO,EAAE,KAAK;EAEhB,WAAG;IACF,MAAM,EAAE,iBAAgB;IACxB,MAAM,EAAE,IAAI;;AAGnB,EAAE;EACD,KAAK,ECtBE,OAAO;;ADyBf,GAAG;EACF,KAAK,EC1BE,OAAO;ED2Bd,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,UAAU,EAAE,MAAM;;AAElB,GAAI;EACF,KAAK,EChCA,OAAO;EDkCZ,cAAc,EAAE,MAAM;;AAExB,MAAM;EACN,KAAK,EC7BQ,OAAO;ED8BpB,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,KAAK;;AAGlB,KAAK;EACJ,KAAK,ECnCQ,OAAO;;ADsCpB,CAAC;EACC,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,IAAI;;AEnDpB,kBAAkB;AAClB,kBAAkB",
+"sources": ["../sass/pages/home.scss","../sass/pages/columnistas.scss","../sass/pages/blogs.scss","../sass/helpers/variables.scss","../sass/pages/contacto.scss"],
 "names": [],
 "file": "main.css"
 }
