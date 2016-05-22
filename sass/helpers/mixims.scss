@@ -1,6 +1,25 @@
+/* CONTACTO partes formulario */
 @mixin formulario {
 	background-color: $gris-form;
 	border: 1px solid grey;
 	padding-left: 10px;
 	width: 100%;
+}
+
+
+
+/* listas */
+@mixin listas ($color, $font-size) {
+	ul {
+		list-style: none;
+		margin-left: -55px;
+		li {
+			float: left;
+			a {
+				padding: 0px 5px;
+				color: $color;
+				font-size: $font-size;
+			}
+		}
+	}
 }

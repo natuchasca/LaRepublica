@@ -1,8 +1,140 @@
+/* CONTACTO partes formulario */
+/* listas */
 /* HEADER */
 .gris-bar {
-  background-color: #e3e3e3; }
+  background-color: #e3e3e3;
+  padding: 0px 0px 5px 0px;
+  border-bottom: 1px solid grey; }
+  .gris-bar img {
+    margin: 10px 0px; }
   .gris-bar ul {
-    display: list-inline; }
+    list-style: none;
+    margin-left: -30px; }
+    .gris-bar ul li {
+      float: left; }
+      .gris-bar ul li a {
+        margin-right: 15px;
+        color: black;
+        font-size: 10px;
+        font-weight: bold; }
+  .gris-bar button {
+    margin-right: 10px; }
+  .gris-bar i {
+    font-size: 18px;
+    margin-right: 10px;
+    vertical-align: middle; }
+    .gris-bar i.fa-facebook-f {
+      color: #3a70a6; }
+    .gris-bar i.fa-twitter {
+      color: #4cb8d9; }
+    .gris-bar i.fa-google-plus {
+      color: #fc3826; }
+    .gris-bar i.fa-envelope {
+      color: #fcbd00; }
+    .gris-bar i.fa-rss {
+      color: #fa952f; }
+  .gris-bar .buscar {
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    padding: 0px 10px;
+    font-size: 10px;
+    font-weight: bold;
+    display: inline-block;
+    height: 20px;
+    padding-bottom: 0px; }
+    .gris-bar .buscar p {
+      display: inline; }
+    .gris-bar .buscar i {
+      font-size: 10px;
+      margin-right: 0px;
+      margin-left: 2px; }
+
+.logo-part {
+  padding: 50px 0px; }
+  .logo-part .especial-box {
+    border: 1px solid #e3e3e3;
+    border-bottom: 3px solid #141414;
+    padding: 12px 0px; }
+    .logo-part .especial-box .etiqueta {
+      background-color: #141414;
+      color: white;
+      width: 60%;
+      margin: -20px auto 5px;
+      box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.49); }
+  .logo-part .editorial-home img {
+    display: inline; }
+    .logo-part .editorial-home img.editorial {
+      margin-top: -10px;
+      background-color: #141414;
+      padding: 5px 10px 5px 5px;
+      box-shadow: -2px 0px 3px 0px rgba(0, 0, 0, 0.49); }
+    .logo-part .editorial-home img.author {
+      margin-left: -10px;
+      margin-top: -10px; }
+  .logo-part .editorial-home .texto-editorial {
+    display: inline-block;
+    vertical-align: middle;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 0px 10px;
+    margin-left: -10px;
+    margin-top: -10px;
+    background-color: white;
+    border: 1px solid #e3e3e3; }
+    .logo-part .editorial-home .texto-editorial h5 {
+      margin-bottom: -5px; }
+
+/* Los NAV rojo y gris bajo el logo de la republica */
+.nav-1 {
+  background-color: #b81414;
+  padding: 10px;
+  width: 71%;
+  margin: 0px auto 10px;
+  border-radius: 10px; }
+  .nav-1 ul {
+    list-style: none;
+    margin-left: -55px; }
+    .nav-1 ul li {
+      float: left; }
+      .nav-1 ul li a {
+        padding: 0px 5px;
+        color: white;
+        font-size: 12px; }
+  .nav-1 li {
+    border-right: 1px solid black;
+    line-height: 20px; }
+
+.nav-2 {
+  background-color: #e3e3e3;
+  padding: 10px;
+  width: 71%;
+  margin: 0px auto 10px;
+  border-radius: 10px;
+  overflow: hidden; }
+  .nav-2 ul {
+    list-style: none;
+    margin-left: -55px; }
+    .nav-2 ul li {
+      float: left; }
+      .nav-2 ul li a {
+        padding: 0px 5px;
+        color: black;
+        font-size: 12px; }
+  .nav-2 .black {
+    background-color: #141414;
+    padding: 10px;
+    margin: -10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: white;
+    height: inherit;
+    width: auto; }
+  .nav-2 li {
+    list-style: disc;
+    margin: 0px 10px; }
+    .nav-2 li:nth-child(2) {
+      margin-left: 15px; }
 
 /* FOOTER */
 footer {
@@ -20,9 +152,53 @@ footer {
     margin-right: 10px; }
   footer .textos {
     width: 170px; }
+  footer .links p {
+    font-size: 10px; }
 
 /* ------------ */
 /* ----HOME---- */
+.titular h1 {
+  font-size: 50px;
+  font-weight: bold; }
+
+.columnistas {
+  background-color: #e3e3e3;
+  border-top: 3px solid #b81414;
+  padding: 30px 0px; }
+  .columnistas .etiqueta {
+    background-color: #b81414;
+    color: white;
+    padding: 1px 1px;
+    width: 140px;
+    margin: 0 auto;
+    margin-top: -40px; }
+  .columnistas .box-columnista {
+    width: 150px;
+    display: inline-block; }
+    .columnistas .box-columnista img {
+      width: 70px;
+      height: 70px;
+      margin-top: 20px;
+      background-color: white;
+      padding: 3px 3px;
+      border: 1px solid grey; }
+    .columnistas .box-columnista h5 {
+      font-weight: bold; }
+
+.red-text {
+  color: #b81414; }
+
+.destacado {
+  margin: 50px 0px; }
+  .destacado .destacados {
+    border: 1px solid grey;
+    width: 350px;
+    height: 300px;
+    margin-bottom: 20px; }
+    .destacado .destacados img {
+      width: 100%;
+      height: auto; }
+
 /* ------------ */
 /* COLUMNISTAS */
 /* ------------ */

@@ -2,20 +2,151 @@
 
 .gris-bar {
 	background-color: $gris-claro;
+	padding: 0px 0px 5px 0px;
+	border-bottom: 1px solid grey;
+	img {
+		margin: 10px 0px;
+	}
+	ul {
+		list-style: none;
+		margin-left: -30px;
+		li {
+			float: left;
+			a {
+				margin-right: 15px;
+				color: black;
+				font-size: 10px;
+				font-weight: bold;
+			}
+		}
+	}
+	button {
+		margin-right: 10px;
+	}
+	i {
+		font-size: 18px;
+		margin-right: 10px;
+		vertical-align: middle;
+		&.fa-facebook-f {
+			color: $color-facebook;
+		}
+		&.fa-twitter {
+			color: $color-twitter;
+		}
+		&.fa-google-plus {
+			color: $color-google;
+		}
+		&.fa-envelope {
+			color: $color-mail;
+		}
+		&.fa-rss {
+			color: $color-feed;
+		}
+	}
+	.buscar {
+		border-left: 1px solid grey;
+		border-right: 1px solid grey;
+		padding: 0px 10px;
+		font-size: 10px;
+		font-weight: bold;
+		display: inline-block;
+		height: 20px;
+		padding-bottom: 0px;
+		p {
+		display: inline;
+		}
+		i {
+			font-size: 10px;
+			margin-right: 0px;
+			margin-left: 2px;
+		}
+	}
 }
 
-.fa-facebook-f {
-	background-color: $color-facebook;
+.logo-part {
+	padding: 50px 0px;
+	.especial-box {
+		border: 1px solid $gris-claro;
+		border-bottom: 3px solid $black;
+		padding: 12px 0px;
+		.etiqueta {
+			background-color: $black;
+			color: white;
+			width: 60%;
+			margin: -20px auto 5px;
+			box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.49);
+		}
+	}
+	.editorial-home {
+		img {
+			display: inline;
+			&.editorial {
+				margin-top: -10px;
+				background-color: $black;
+				padding: 5px 10px 5px 5px;
+				box-shadow: -2px 0px 3px 0px rgba(0,0,0,0.49);
+			}
+			&.author {
+				margin-left: -10px;
+				margin-top: -10px;
+			}
+		}
+		.texto-editorial {
+			display: inline-block;
+			vertical-align: middle;
+			height: 60px;
+			border-top-left-radius: 10px;
+			border-bottom-left-radius: 10px;
+			padding: 0px 10px;
+			margin-left: -10px;
+			margin-top: -10px;
+			background-color: white;
+			border: 1px solid $gris-claro;
+			h5 {
+				margin-bottom: -5px;
+			}
+		}
+	}
 }
-.fa-twitter {
-	background-color: $color-twitter;
+
+/* Los NAV rojo y gris bajo el logo de la republica */
+.nav-1 {
+	@include listas (white, 12px);
+	background-color: $rojo;
+	padding: 10px;
+    width: 71%;
+    margin: 0px auto 10px;
+    border-radius: 10px;
+    li {
+    	border-right: 1px solid black;
+    	line-height: 20px;
+    }
 }
-.fa-google-plus {
-	background-color: $color-google;
+.nav-2 {
+	@include listas (black, 12px);
+	background-color: $gris-claro;
+	padding: 10px;
+    width: 71%;
+    margin: 0px auto 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    .black {
+		background-color: $black;
+		padding: 10px;
+		margin: -10px;
+		border-top-left-radius: 10px;
+		border-bottom-left-radius: 10px;
+		color: white;
+		height: inherit;
+		width: auto;
+    }
+    li {
+    	list-style: disc;
+    	margin: 0px 10px;
+    	&:nth-child(2) {
+			margin-left: 15px;
+		}
+    }
 }
-.fa-envelope {
-	background-color: $color-mail;
-}
-.fa-search {
-	background-color: $color-feed;
-}
+
+		
