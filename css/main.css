@@ -1,9 +1,71 @@
 /* ------------ */
 /* ----HOME---- */
 /* ------------ */
+.btn-danger {
+  background: #b81414;
+  border: 1px solid #d10d0d;
+  display: block;
+  width: 100%;
+  padding: .3em;
+  margin: 1em auto;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: 'PT Sans',sans-serif;
+  border-radius: 3px;
+  max-width: 200px;
+  text-decoration: none; }
+
+.nav-pills {
+  background-color: #b81414;
+  height: 70px; }
+  .nav-pills li {
+    text-decoration: none;
+    color: white;
+    display: inline;
+    margin: 10px; }
+    .nav-pills li .active {
+      text-decoration: none;
+      color: white;
+      display: inline;
+      margin: 10px; }
+      .nav-pills li .active .act2 {
+        text-decoration: none;
+        color: white;
+        display: inline;
+        margin: 10px; }
+
+.recuadro2 {
+  border: 1px solid #e3e3e3;
+  background-color: #e3e3e3;
+  width: 235px;
+  height: 90px;
+  display: block;
+  margin: 2px; }
+  .recuadro2 .im {
+    border: 2px solid #FFFFFF;
+    margin: 10px;
+    width: 60px;
+    height: 60px; }
+
+.acti {
+  border: 1px solid #9C9393;
+  background: #FFFFFF;
+  width: 235px;
+  height: 90px;
+  display: block;
+  margin: 2px;
+  font-size: 11px; }
+  .acti .im {
+    border: 2px solid #FFFFFF;
+    margin: 10px;
+    width: 60px;
+    height: 60px; }
+
+.font {
+  font-size: 11px; }
+
 /* COLUMNISTAS */
 /* ------------ */
-/* ---BLOGS--- */
 .cuadro {
   border: 2px solid #e3e3e3;
   width: 290px;
@@ -20,7 +82,9 @@
     display: block; }
   .cuadro .im {
     border: 2px solid #FFFFFF;
-    margin: 10px; }
+    margin: 10px;
+    width: 60px;
+    height: 60px; }
 
 .B {
   color: #141414; }
@@ -47,6 +111,7 @@ p {
   text-align: center;
   padding-top: 20px; }
 
+/* ---BLOGS--- */
 /* ------------ */
 /* --CONTACTO-- */
 
