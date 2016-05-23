@@ -9,3 +9,11 @@
 @import 'pages/contacto.scss';
 @import 'layout/responsive.scss';
 
+
+body {
+	background-image: url("../image/13267862_10153685807771973_2671341438060082488_n.jpg"),
+	url("../image/13227038_10153685807816973_1330493536409003322_n.jpg");
+	background-position: top 300px left, top 300px right;
+	background-repeat: no-repeat;
+}
+

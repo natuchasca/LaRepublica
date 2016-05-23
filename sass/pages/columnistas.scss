@@ -1,2 +1,139 @@
-/* ------------ */
 /* COLUMNISTAS */
+/* ------------ */
+.all-columnas {
+	padding: 30px 0px;
+	.cuadro{
+	border: 2px solid $gris-claro;
+	width: 290px;
+	height: 250px;
+	margin: 10px;
+	content: " ";
+	.ecuadro{
+	    	width: 270px;
+	    	height: 120px;
+	    }
+	    .recuadro{
+	    	    background-color: $gris-claro;
+	    	 	width: 270px; 
+	    	 	height: 107px;
+	    	 	display: block;
+	    	}
+	    	.im{
+	    		border: 2px solid $white;
+	    		margin: 10px;
+	    	}
+	}
+	.B{
+		color: $black;
+	}
+
+	.B1{
+		color: $black;
+		padding: 10px;
+		vertical-align: middle;
+		text-align: center;
+	}
+	 .B2 {
+	   color: $black;
+
+	   vertical-align: middle;
+	 }
+	 .Grios{
+		color: $gris-oscuro;
+		text-align: center;
+		margin-top: -12px;
+
+	}
+	.gris{
+		color: $gris-oscuro;
+	}
+
+	 p {
+	  	text-align: center;
+	  	padding-top: 20px;
+	  }
+
+}
+
+
+.all-columnistas {
+	padding: 30px 0px;
+	.btn-danger{
+		background: $rojo;
+		border: 1px solid #d10d0d;
+		display: block;
+	    width: 100%;
+	    padding: .3em;
+	    margin: 1em auto;
+	    font-size: 14px;
+	    text-transform: uppercase;
+	    font-family: 'PT Sans',sans-serif;
+	    border-radius: 3px;
+	    max-width: 200px;
+	    text-decoration: none;
+	}
+	.nav-pills{
+		background-color: $rojo;
+		height: 70px;
+		li{
+			text-decoration: none;	
+			color: white;
+			display: inline;
+			margin: 10px;
+			.active{
+				text-decoration: none;	
+				color: white;
+				display: inline;
+				margin: 10px;
+				.act2{
+					text-decoration: none;	
+					color: white;
+					display: inline;
+					margin: 10px;
+				}
+
+			}
+		}
+	}
+
+	.recuadro2{
+		border: 1px solid $gris-claro;
+	    background-color: $gris-claro;
+		width: 235px; 
+		height: 90px;
+		display: block;
+		margin: 2px;
+	    .im{
+		    border: 2px solid $white;
+			margin: 10px;
+		    width: 60px;
+			height: 60px;		
+		}
+	}
+	.acti{
+		border: 1px solid $gris-oscuro;
+	    background: #FFFFFF;
+		width: 235px; 
+		height: 90px;
+		display: block;
+		margin: 2px;
+		font-size: 11px;
+		.im{
+		    border: 2px solid $white;
+			margin: 10px;
+		    width: 60px;
+			height: 60px;		
+		}		
+	}
+	.font{
+		font-size: 11px;
+	}
+
+
+}
+
+
+
+
+
+
