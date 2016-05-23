@@ -1,7 +1,11 @@
 /* ------------ */
 /* --CONTACTO-- */
-
 .contacto {
+	padding: 30px 30px;
+	h1 {
+		font-size: 50px;
+		font-weight: bold;
+	}
 	form {
 		margin: 30px 0px 70px 0px;
 		textarea {

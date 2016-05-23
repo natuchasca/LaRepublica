@@ -1,5 +1,6 @@
-/* CONTACTO partes formulario */
+/* Especial box header */
 /* listas */
+/* CONTACTO partes formulario */
 /* HEADER */
 .gris-bar {
   background-color: #e3e3e3;
@@ -51,16 +52,30 @@
 
 .logo-part {
   padding: 50px 0px; }
-  .logo-part .especial-box {
+  .logo-part img {
+    margin-top: 10px; }
+  .logo-part .especial-box.home {
     border: 1px solid #e3e3e3;
     border-bottom: 3px solid #141414;
     padding: 12px 0px; }
-    .logo-part .especial-box .etiqueta {
+    .logo-part .especial-box.home .etiqueta {
       background-color: #141414;
       color: white;
       width: 60%;
       margin: -20px auto 5px;
       box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.49); }
+  .logo-part .especial-box.redtag {
+    border: 1px solid #e3e3e3;
+    border-bottom: 3px solid #b81414;
+    padding: 12px 0px; }
+    .logo-part .especial-box.redtag .etiqueta {
+      background-color: #b81414;
+      color: white;
+      width: 60%;
+      margin: -20px auto 5px;
+      box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.49); }
+    .logo-part .especial-box.redtag .etiqueta {
+      width: 30%; }
   .logo-part .editorial-home img {
     display: inline; }
     .logo-part .editorial-home img.editorial {
@@ -88,22 +103,23 @@
 /* Los NAV rojo y gris bajo el logo de la republica */
 .nav-1 {
   background-color: #b81414;
-  padding: 10px;
   width: 71%;
   margin: 0px auto 10px;
   border-radius: 10px; }
   .nav-1 ul {
     list-style: none;
-    margin-left: -55px; }
+    margin-left: -45px; }
     .nav-1 ul li {
       float: left; }
       .nav-1 ul li a {
-        padding: 0px 5px;
         color: white;
         font-size: 12px; }
   .nav-1 li {
     border-right: 1px solid black;
-    line-height: 20px; }
+    line-height: 20px;
+    padding: 10px 6px; }
+    .nav-1 li:last-child {
+      border-right: none; }
 
 .nav-2 {
   background-color: #e3e3e3;
@@ -114,17 +130,18 @@
   overflow: hidden; }
   .nav-2 ul {
     list-style: none;
-    margin-left: -55px; }
+    margin-left: -45px; }
     .nav-2 ul li {
       float: left; }
       .nav-2 ul li a {
-        padding: 0px 5px;
         color: black;
         font-size: 12px; }
   .nav-2 .black {
     background-color: #141414;
-    padding: 10px;
+    padding: 10px 10px;
     margin: -10px;
+    margin-left: -20px;
+    margin-right: 10px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     color: white;
@@ -132,9 +149,17 @@
     width: auto; }
   .nav-2 li {
     list-style: disc;
-    margin: 0px 10px; }
+    margin: 0px 12px; }
+    .nav-2 li:nth-child(2), .nav-2 li:nth-child(3), .nav-2 li:last-child {
+      list-style: none; }
     .nav-2 li:nth-child(2) {
-      margin-left: 15px; }
+      margin-left: 20px; }
+    .nav-2 li:nth-child(3) {
+      margin-left: -10px; }
+    .nav-2 li .fa-chevron-left {
+      margin-left: -25px; }
+    .nav-2 li .fa-chevron-right {
+      margin-left: -10px; }
 
 /* FOOTER */
 footer {
@@ -154,17 +179,40 @@ footer {
     width: 170px; }
   footer .links p {
     font-size: 10px; }
+    footer .links p a {
+      color: grey; }
 
 /* ------------ */
 /* ----HOME---- */
 .titular h1 {
   font-size: 50px;
   font-weight: bold; }
+.titular .bajada p {
+  display: inline; }
+.titular .bajada .bullet {
+  margin: 0px 10px; }
+.titular .img1 {
+  background-image: url("../image/img_grid_principal.jpg");
+  width: 98%;
+  height: 500px;
+  color: white; }
+.titular .img2 {
+  background-image: url("../image/img_grid_secundario.jpg");
+  width: 98%;
+  height: 240px;
+  color: white; }
+.titular .img3 {
+  background-image: url("../image/img_video_destacado.jpg");
+  width: 98%;
+  height: 240px;
+  background-size: 100%;
+  color: white; }
 
 .columnistas {
   background-color: #e3e3e3;
   border-top: 3px solid #b81414;
-  padding: 30px 0px; }
+  padding: 30px 0px;
+  margin-top: 40px; }
   .columnistas .etiqueta {
     background-color: #b81414;
     color: white;
@@ -199,32 +247,54 @@ footer {
       width: 100%;
       height: auto; }
 
+.ultimas-noticias {
+  margin: 50px 0px; }
+  .ultimas-noticias h5 {
+    color: grey;
+    display: inline;
+    font-weight: bold; }
+  .ultimas-noticias .news {
+    margin: 20px 0px;
+    padding-right: 10px; }
+    .ultimas-noticias .news .fecha {
+      font-size: 12px; }
+    .ultimas-noticias .news h4 {
+      font-weight: bold; }
+    .ultimas-noticias .news img {
+      float: left;
+      margin-right: 10px; }
+
 /* ------------ */
 /* COLUMNISTAS */
 /* ------------ */
 /* ---BLOGS--- */
 /* ------------ */
 /* --CONTACTO-- */
-.contacto form {
-  margin: 30px 0px 70px 0px; }
-  .contacto form textarea {
-    background-color: #ededed;
-    border: 1px solid grey;
-    padding-left: 10px;
-    width: 100%;
-    margin-bottom: 20px; }
-  .contacto form .input {
-    background-color: #ededed;
-    border: 1px solid grey;
-    padding-left: 10px;
-    width: 100%;
-    height: 35px;
-    margin-top: 20px; }
-  .contacto form .destinatario {
-    margin: 30px 0px; }
-  .contacto form .btn-lg {
-    background-color: #141414;
-    padding: 10px 100px;
-    color: white; }
+.contacto {
+  padding: 30px 30px; }
+  .contacto h1 {
+    font-size: 50px;
+    font-weight: bold; }
+  .contacto form {
+    margin: 30px 0px 70px 0px; }
+    .contacto form textarea {
+      background-color: #ededed;
+      border: 1px solid grey;
+      padding-left: 10px;
+      width: 100%;
+      margin-bottom: 20px; }
+    .contacto form .input {
+      background-color: #ededed;
+      border: 1px solid grey;
+      padding-left: 10px;
+      width: 100%;
+      height: 35px;
+      margin-top: 20px; }
+    .contacto form .destinatario {
+      margin: 30px 0px; }
+    .contacto form .btn-lg {
+      background-color: #141414;
+      padding: 10px 100px;
+      color: white; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,3 +1,34 @@
+/* Especial box header */
+@mixin especialbox ($bordercolor, $backetiqueta) {
+	border: 1px solid $gris-claro;
+	border-bottom: 3px solid $bordercolor;
+	padding: 12px 0px;
+	.etiqueta {
+		background-color: $backetiqueta;
+		color: white;
+		width: 60%;
+		margin: -20px auto 5px;
+		box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.49);
+	}
+}
+
+
+/* listas */
+@mixin listas ($color, $font-size) {
+	ul {
+		list-style: none;
+		margin-left: -45px;
+		li {
+			float: left;
+			a {
+				color: $color;
+				font-size: $font-size;
+			}
+		}
+	}
+}
+
+
 /* CONTACTO partes formulario */
 @mixin formulario {
 	background-color: $gris-form;
@@ -8,18 +39,3 @@
 
 
 
-/* listas */
-@mixin listas ($color, $font-size) {
-	ul {
-		list-style: none;
-		margin-left: -55px;
-		li {
-			float: left;
-			a {
-				padding: 0px 5px;
-				color: $color;
-				font-size: $font-size;
-			}
-		}
-	}
-}
