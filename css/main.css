@@ -1,5 +1,6 @@
 /* Especial box header */
 /* listas */
+/* Back gradient imágenes home */
 /* CONTACTO partes formulario */
 /* HEADER */
 .gris-bar {
@@ -57,7 +58,8 @@
   .logo-part .especial-box.home {
     border: 1px solid #e3e3e3;
     border-bottom: 3px solid #141414;
-    padding: 12px 0px; }
+    padding: 12px 0px;
+    font-size: 12px; }
     .logo-part .especial-box.home .etiqueta {
       background-color: #141414;
       color: white;
@@ -67,7 +69,8 @@
   .logo-part .especial-box.redtag {
     border: 1px solid #e3e3e3;
     border-bottom: 3px solid #b81414;
-    padding: 12px 0px; }
+    padding: 12px 0px;
+    font-size: 12px; }
     .logo-part .especial-box.redtag .etiqueta {
       background-color: #b81414;
       color: white;
@@ -103,7 +106,7 @@
 /* Los NAV rojo y gris bajo el logo de la republica */
 .nav-1 {
   background-color: #b81414;
-  width: 71%;
+  width: 76%;
   margin: 0px auto 10px;
   border-radius: 10px; }
   .nav-1 ul {
@@ -124,7 +127,7 @@
 .nav-2 {
   background-color: #e3e3e3;
   padding: 10px;
-  width: 71%;
+  width: 76%;
   margin: 0px auto 10px;
   border-radius: 10px;
   overflow: hidden; }
@@ -196,17 +199,40 @@ footer {
   width: 98%;
   height: 500px;
   color: white; }
+  .titular .img1 .back-gradient {
+    background: -moz-linear-gradient(top, rgba(252, 252, 252, 0) 0%, rgba(72, 72, 72, 0.1) 62%, rgba(29, 29, 29, 0.7) 77%, rgba(3, 3, 3, 0.79) 86%, rgba(3, 3, 3, 0.92) 100%);
+    width: 100%;
+    height: inherit; }
+  .titular .img1 h2 {
+    display: block;
+    padding: 83% 0px 0px 20px; }
 .titular .img2 {
   background-image: url("../image/img_grid_secundario.jpg");
   width: 98%;
   height: 240px;
   color: white; }
+  .titular .img2 .back-gradient {
+    background: -moz-linear-gradient(top, rgba(252, 252, 252, 0) 0%, rgba(72, 72, 72, 0.1) 62%, rgba(29, 29, 29, 0.7) 77%, rgba(3, 3, 3, 0.79) 86%, rgba(3, 3, 3, 0.92) 100%);
+    width: 100%;
+    height: inherit; }
+  .titular .img2 h2 {
+    display: block;
+    font-size: 25px;
+    padding: 31% 0px 0px 20px; }
 .titular .img3 {
   background-image: url("../image/img_video_destacado.jpg");
   width: 98%;
   height: 240px;
   background-size: 100%;
   color: white; }
+  .titular .img3 .back-gradient {
+    background: -moz-linear-gradient(top, rgba(252, 252, 252, 0) 0%, rgba(72, 72, 72, 0.1) 62%, rgba(29, 29, 29, 0.7) 77%, rgba(3, 3, 3, 0.79) 86%, rgba(3, 3, 3, 0.92) 100%);
+    width: 100%;
+    height: inherit; }
+  .titular .img3 h2 {
+    display: block;
+    font-size: 25px;
+    padding: 31% 0px 0px 20px; }
 
 .columnistas {
   background-color: #e3e3e3;
@@ -241,11 +267,20 @@ footer {
   .destacado .destacados {
     border: 1px solid grey;
     width: 350px;
-    height: 300px;
+    height: 280px;
     margin-bottom: 20px; }
-    .destacado .destacados img {
-      width: 100%;
-      height: auto; }
+    .destacado .destacados .dest-img {
+      background-image: url("../image/img_especiales.jpg");
+      background-size: 350px auto;
+      background-repeat: no-repeat;
+      color: white; }
+      .destacado .destacados .dest-img .back-gradient {
+        background: -moz-linear-gradient(top, rgba(252, 252, 252, 0) 0%, rgba(72, 72, 72, 0.1) 62%, rgba(29, 29, 29, 0.7) 77%, rgba(3, 3, 3, 0.79) 86%, rgba(3, 3, 3, 0.92) 100%);
+        width: 100%;
+        height: inherit; }
+      .destacado .destacados .dest-img h4 {
+        display: block;
+        padding: 41% 0px 10px 20px; }
 
 .ultimas-noticias {
   margin: 50px 0px; }
@@ -263,6 +298,67 @@ footer {
     .ultimas-noticias .news img {
       float: left;
       margin-right: 10px; }
+
+/* ASIDE HOME */
+.suscribete {
+  background-image: url("../image/trama_square.jpg");
+  background-repeat: repeat;
+  width: 100%;
+  height: 220px;
+  padding: 15% 0px 0% 0px;
+  margin-bottom: 30px; }
+  .suscribete .white-back {
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    margin: 0 auto; }
+    .suscribete .white-back img {
+      margin-top: -30px; }
+    .suscribete .white-back input {
+      width: 90%;
+      margin-bottom: 10px;
+      background-color: #ededed;
+      border: 1px solid grey;
+      border-radius: 3px;
+      height: 30px; }
+    .suscribete .white-back button {
+      width: 90%;
+      margin-bottom: 10px;
+      background-color: #b81414;
+      border: none;
+      border-radius: 3px;
+      color: white;
+      padding: 2px; }
+
+.aweita {
+  border: 1px solid grey;
+  padding: 20px 10px 0px 10px;
+  margin-bottom: 30px; }
+  .aweita .logo-aweita {
+    margin-bottom: 20px; }
+  .aweita .aweita-content {
+    display: block;
+    height: 80px;
+    font-size: 12px; }
+    .aweita .aweita-content img {
+      float: left;
+      margin-right: 5px; }
+  .aweita a {
+    color: black;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #9D3EC7;
+    display: block;
+    width: 60%;
+    margin: 0 auto; }
+    .aweita a span {
+      color: #9D3EC7; }
+
+.fotos .tag-aside {
+  font-size: 20px;
+  color: white;
+  background-color: #6E7B98;
+  width: 70%;
+  margin: 0 auto; }
 
 /* ------------ */
 /* COLUMNISTAS */

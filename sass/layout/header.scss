@@ -115,7 +115,7 @@
 .nav-1 {
 	@include listas (white, 12px);
 	background-color: $rojo;
-    width: 71%;
+    width: 76%;
     margin: 0px auto 10px;
     border-radius: 10px;
     li {
@@ -131,7 +131,7 @@
 	@include listas (black, 12px);
 	background-color: $gris-claro;
 	padding: 10px;
-    width: 71%;
+    width: 76%;
     margin: 0px auto 10px;
     border-radius: 10px;
     overflow: hidden;
