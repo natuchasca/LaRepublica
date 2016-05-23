@@ -1,0 +1,15 @@
+.cuadro{
+	border: 2px solid $gris-claro;
+	width: 290px;
+	height: 250px;
+	margin: 10px;
+	content: " ";
+	.ecuadro{
+	    	width: 270px;
+	    	height: 140px;
+	    }
+	    .recuadro{
+	    	 	width: 270px; 
+	    	 	height: 110px;
+	    	}
+}
