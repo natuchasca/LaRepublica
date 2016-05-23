@@ -1,10 +1,396 @@
+/* Especial box header */
+/* listas */
+/* Back gradient imágenes home */
+/* CONTACTO partes formulario */
+/* HEADER */
+.gris-bar {
+  background-color: #e3e3e3;
+  padding: 0px 0px 5px 0px;
+  border-bottom: 1px solid grey; }
+  .gris-bar img {
+    margin: 10px 0px; }
+  .gris-bar ul {
+    list-style: none;
+    margin-left: -30px; }
+    .gris-bar ul li {
+      float: left; }
+      .gris-bar ul li a {
+        margin-right: 15px;
+        color: black;
+        font-size: 10px;
+        font-weight: bold; }
+  .gris-bar button {
+    margin-right: 10px; }
+  .gris-bar i {
+    font-size: 18px;
+    margin-right: 10px;
+    vertical-align: middle; }
+    .gris-bar i.fa-facebook-f {
+      color: #3a70a6; }
+    .gris-bar i.fa-twitter {
+      color: #4cb8d9; }
+    .gris-bar i.fa-google-plus {
+      color: #fc3826; }
+    .gris-bar i.fa-envelope {
+      color: #fcbd00; }
+    .gris-bar i.fa-rss {
+      color: #fa952f; }
+  .gris-bar .buscar {
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    padding: 0px 10px;
+    font-size: 10px;
+    font-weight: bold;
+    display: inline-block;
+    height: 20px;
+    padding-bottom: 0px; }
+    .gris-bar .buscar p {
+      display: inline; }
+    .gris-bar .buscar i {
+      font-size: 10px;
+      margin-right: 0px;
+      margin-left: 2px; }
+
+.logo-part {
+  padding: 50px 0px; }
+  .logo-part img {
+    margin-top: 10px; }
+  .logo-part .especial-box.home {
+    border: 1px solid #e3e3e3;
+    border-bottom: 3px solid #141414;
+    padding: 12px 0px;
+    font-size: 12px; }
+    .logo-part .especial-box.home .etiqueta {
+      background-color: #141414;
+      color: white;
+      width: 60%;
+      margin: -20px auto 5px;
+      box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.49); }
+  .logo-part .especial-box.redtag {
+    border: 1px solid #e3e3e3;
+    border-bottom: 3px solid #b81414;
+    padding: 12px 0px;
+    font-size: 12px; }
+    .logo-part .especial-box.redtag .etiqueta {
+      background-color: #b81414;
+      color: white;
+      width: 60%;
+      margin: -20px auto 5px;
+      box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.49); }
+    .logo-part .especial-box.redtag .etiqueta {
+      width: 30%; }
+  .logo-part .editorial-home img {
+    display: inline; }
+    .logo-part .editorial-home img.editorial {
+      margin-top: -10px;
+      background-color: #141414;
+      padding: 5px 10px 5px 5px;
+      box-shadow: -2px 0px 3px 0px rgba(0, 0, 0, 0.49); }
+    .logo-part .editorial-home img.author {
+      margin-left: -10px;
+      margin-top: -10px; }
+  .logo-part .editorial-home .texto-editorial {
+    display: inline-block;
+    vertical-align: middle;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 0px 10px;
+    margin-left: -10px;
+    margin-top: -10px;
+    background-color: white;
+    border: 1px solid #e3e3e3; }
+    .logo-part .editorial-home .texto-editorial h5 {
+      margin-bottom: -5px; }
+
+/* Los NAV rojo y gris bajo el logo de la republica */
+.nav-1 {
+  background-color: #b81414;
+  width: 76%;
+  margin: 0px auto 10px;
+  border-radius: 10px; }
+  .nav-1 ul {
+    list-style: none;
+    margin-left: -45px; }
+    .nav-1 ul li {
+      float: left; }
+      .nav-1 ul li a {
+        color: white;
+        font-size: 12px; }
+  .nav-1 li {
+    border-right: 1px solid black;
+    line-height: 20px;
+    padding: 10px 6px; }
+    .nav-1 li:last-child {
+      border-right: none; }
+
+.nav-2 {
+  background-color: #e3e3e3;
+  padding: 10px;
+  width: 76%;
+  margin: 0px auto 10px;
+  border-radius: 10px;
+  overflow: hidden; }
+  .nav-2 ul {
+    list-style: none;
+    margin-left: -45px; }
+    .nav-2 ul li {
+      float: left; }
+      .nav-2 ul li a {
+        color: black;
+        font-size: 12px; }
+  .nav-2 .black {
+    background-color: #141414;
+    padding: 10px 10px;
+    margin: -10px;
+    margin-left: -20px;
+    margin-right: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: white;
+    height: inherit;
+    width: auto; }
+  .nav-2 li {
+    list-style: disc;
+    margin: 0px 12px; }
+    .nav-2 li:nth-child(2), .nav-2 li:nth-child(3), .nav-2 li:last-child {
+      list-style: none; }
+    .nav-2 li:nth-child(2) {
+      margin-left: 20px; }
+    .nav-2 li:nth-child(3) {
+      margin-left: -10px; }
+    .nav-2 li .fa-chevron-left {
+      margin-left: -25px; }
+    .nav-2 li .fa-chevron-right {
+      margin-left: -10px; }
+
+/* FOOTER */
+footer {
+  background-color: #e3e3e3;
+  padding: 30px 0px; }
+  footer .logo-footer {
+    margin-top: 100px;
+    margin-right: 20px; }
+  footer p {
+    font-size: 12px;
+    margin-bottom: 2px; }
+  footer .separador {
+    border-left: 1px solid white;
+    padding-left: 20px;
+    margin-right: 10px; }
+  footer .textos {
+    width: 170px; }
+  footer .links p {
+    font-size: 10px; }
+    footer .links p a {
+      color: grey; }
+
 /* ------------ */
 /* ----HOME---- */
+.titular h1 {
+  font-size: 50px;
+  font-weight: bold; }
+.titular .bajada p {
+  display: inline; }
+.titular .bajada .bullet {
+  margin: 0px 10px; }
+.titular .img1 {
+  background-image: url("../image/img_grid_principal.jpg");
+  width: 98%;
+  height: 500px;
+  color: white; }
+  .titular .img1 .back-gradient {
+    background: -moz-linear-gradient(top, rgba(252, 252, 252, 0) 0%, rgba(72, 72, 72, 0.1) 62%, rgba(29, 29, 29, 0.7) 77%, rgba(3, 3, 3, 0.79) 86%, rgba(3, 3, 3, 0.92) 100%);
+    width: 100%;
+    height: inherit; }
+  .titular .img1 h2 {
+    display: block;
+    padding: 83% 0px 0px 20px; }
+.titular .img2 {
+  background-image: url("../image/img_grid_secundario.jpg");
+  width: 98%;
+  height: 240px;
+  color: white; }
+  .titular .img2 .back-gradient {
+    background: -moz-linear-gradient(top, rgba(252, 252, 252, 0) 0%, rgba(72, 72, 72, 0.1) 62%, rgba(29, 29, 29, 0.7) 77%, rgba(3, 3, 3, 0.79) 86%, rgba(3, 3, 3, 0.92) 100%);
+    width: 100%;
+    height: inherit; }
+  .titular .img2 h2 {
+    display: block;
+    font-size: 25px;
+    padding: 31% 0px 0px 20px; }
+.titular .img3 {
+  background-image: url("../image/img_video_destacado.jpg");
+  width: 98%;
+  height: 240px;
+  background-size: 100%;
+  color: white; }
+  .titular .img3 .back-gradient {
+    background: -moz-linear-gradient(top, rgba(252, 252, 252, 0) 0%, rgba(72, 72, 72, 0.1) 62%, rgba(29, 29, 29, 0.7) 77%, rgba(3, 3, 3, 0.79) 86%, rgba(3, 3, 3, 0.92) 100%);
+    width: 100%;
+    height: inherit; }
+  .titular .img3 h2 {
+    display: block;
+    font-size: 25px;
+    padding: 31% 0px 0px 20px; }
+
+.columnistas {
+  background-color: #e3e3e3;
+  border-top: 3px solid #b81414;
+  padding: 30px 0px;
+  margin-top: 40px; }
+  .columnistas .etiqueta {
+    background-color: #b81414;
+    color: white;
+    padding: 1px 1px;
+    width: 140px;
+    margin: 0 auto;
+    margin-top: -40px; }
+  .columnistas .box-columnista {
+    width: 150px;
+    display: inline-block; }
+    .columnistas .box-columnista img {
+      width: 70px;
+      height: 70px;
+      margin-top: 20px;
+      background-color: white;
+      padding: 3px 3px;
+      border: 1px solid grey; }
+    .columnistas .box-columnista h5 {
+      font-weight: bold; }
+
+.red-text {
+  color: #b81414; }
+
+.destacado {
+  margin: 50px 0px; }
+  .destacado .destacados {
+    border: 1px solid grey;
+    width: 350px;
+    height: 280px;
+    margin-bottom: 20px; }
+    .destacado .destacados .dest-img {
+      background-image: url("../image/img_especiales.jpg");
+      background-size: 350px auto;
+      background-repeat: no-repeat;
+      color: white; }
+      .destacado .destacados .dest-img .back-gradient {
+        background: -moz-linear-gradient(top, rgba(252, 252, 252, 0) 0%, rgba(72, 72, 72, 0.1) 62%, rgba(29, 29, 29, 0.7) 77%, rgba(3, 3, 3, 0.79) 86%, rgba(3, 3, 3, 0.92) 100%);
+        width: 100%;
+        height: inherit; }
+      .destacado .destacados .dest-img h4 {
+        display: block;
+        padding: 41% 0px 10px 20px; }
+
+.ultimas-noticias {
+  margin: 50px 0px; }
+  .ultimas-noticias h5 {
+    color: grey;
+    display: inline;
+    font-weight: bold; }
+  .ultimas-noticias .news {
+    margin: 20px 0px;
+    padding-right: 10px; }
+    .ultimas-noticias .news .fecha {
+      font-size: 12px; }
+    .ultimas-noticias .news h4 {
+      font-weight: bold; }
+    .ultimas-noticias .news img {
+      float: left;
+      margin-right: 10px; }
+
+/* ASIDE HOME */
+.suscribete {
+  background-image: url("../image/trama_square.jpg");
+  background-repeat: repeat;
+  width: 100%;
+  height: 220px;
+  padding: 15% 0px 0% 0px;
+  margin-bottom: 30px; }
+  .suscribete .white-back {
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    margin: 0 auto; }
+    .suscribete .white-back img {
+      margin-top: -30px; }
+    .suscribete .white-back input {
+      width: 90%;
+      margin-bottom: 10px;
+      background-color: #ededed;
+      border: 1px solid grey;
+      border-radius: 3px;
+      height: 30px; }
+    .suscribete .white-back button {
+      width: 90%;
+      margin-bottom: 10px;
+      background-color: #b81414;
+      border: none;
+      border-radius: 3px;
+      color: white;
+      padding: 2px; }
+
+.aweita {
+  border: 1px solid grey;
+  padding: 20px 10px 0px 10px;
+  margin-bottom: 30px; }
+  .aweita .logo-aweita {
+    margin-bottom: 20px; }
+  .aweita .aweita-content {
+    display: block;
+    height: 80px;
+    font-size: 12px; }
+    .aweita .aweita-content img {
+      float: left;
+      margin-right: 5px; }
+  .aweita a {
+    color: black;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #9D3EC7;
+    display: block;
+    width: 60%;
+    margin: 0 auto; }
+    .aweita a span {
+      color: #9D3EC7; }
+
+.fotos .tag-aside {
+  font-size: 20px;
+  color: white;
+  background-color: #6E7B98;
+  width: 70%;
+  margin: 0 auto; }
+
 /* ------------ */
 /* COLUMNISTAS */
 /* ------------ */
 /* ---BLOGS--- */
 /* ------------ */
 /* --CONTACTO-- */
+.contacto {
+  padding: 30px 30px; }
+  .contacto h1 {
+    font-size: 50px;
+    font-weight: bold; }
+  .contacto form {
+    margin: 30px 0px 70px 0px; }
+    .contacto form textarea {
+      background-color: #ededed;
+      border: 1px solid grey;
+      padding-left: 10px;
+      width: 100%;
+      margin-bottom: 20px; }
+    .contacto form .input {
+      background-color: #ededed;
+      border: 1px solid grey;
+      padding-left: 10px;
+      width: 100%;
+      height: 35px;
+      margin-top: 20px; }
+    .contacto form .destinatario {
+      margin: 30px 0px; }
+    .contacto form .btn-lg {
+      background-color: #141414;
+      padding: 10px 100px;
+      color: white; }
 
 /*# sourceMappingURL=main.css.map */

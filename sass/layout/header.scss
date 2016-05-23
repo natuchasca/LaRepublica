@@ -1,0 +1,171 @@
+/* HEADER */
+
+.gris-bar {
+	background-color: $gris-claro;
+	padding: 0px 0px 5px 0px;
+	border-bottom: 1px solid grey;
+	img {
+		margin: 10px 0px;
+	}
+	ul {
+		list-style: none;
+		margin-left: -30px;
+		li {
+			float: left;
+			a {
+				margin-right: 15px;
+				color: black;
+				font-size: 10px;
+				font-weight: bold;
+			}
+		}
+	}
+	button {
+		margin-right: 10px;
+	}
+	i {
+		font-size: 18px;
+		margin-right: 10px;
+		vertical-align: middle;
+		&.fa-facebook-f {
+			color: $color-facebook;
+		}
+		&.fa-twitter {
+			color: $color-twitter;
+		}
+		&.fa-google-plus {
+			color: $color-google;
+		}
+		&.fa-envelope {
+			color: $color-mail;
+		}
+		&.fa-rss {
+			color: $color-feed;
+		}
+	}
+	.buscar {
+		border-left: 1px solid grey;
+		border-right: 1px solid grey;
+		padding: 0px 10px;
+		font-size: 10px;
+		font-weight: bold;
+		display: inline-block;
+		height: 20px;
+		padding-bottom: 0px;
+		p {
+		display: inline;
+		}
+		i {
+			font-size: 10px;
+			margin-right: 0px;
+			margin-left: 2px;
+		}
+	}
+}
+
+.logo-part {
+	padding: 50px 0px;
+	img {
+		margin-top: 10px;
+	}
+	.especial-box {
+		&.home {
+			@include especialbox ($black,$black);
+		}
+		&.redtag {
+		@include especialbox ($rojo,$rojo);
+			.etiqueta {
+				width: 30%;
+			}
+		}
+	}
+	.editorial-home {
+		img {
+			display: inline;
+			&.editorial {
+				margin-top: -10px;
+				background-color: $black;
+				padding: 5px 10px 5px 5px;
+				box-shadow: -2px 0px 3px 0px rgba(0,0,0,0.49);
+			}
+			&.author {
+				margin-left: -10px;
+				margin-top: -10px;
+			}
+		}
+		.texto-editorial {
+			display: inline-block;
+			vertical-align: middle;
+			height: 60px;
+			border-top-left-radius: 10px;
+			border-bottom-left-radius: 10px;
+			padding: 0px 10px;
+			margin-left: -10px;
+			margin-top: -10px;
+			background-color: white;
+			border: 1px solid $gris-claro;
+			h5 {
+				margin-bottom: -5px;
+			}
+		}
+	}
+}
+
+/* Los NAV rojo y gris bajo el logo de la republica */
+.nav-1 {
+	@include listas (white, 12px);
+	background-color: $rojo;
+    width: 76%;
+    margin: 0px auto 10px;
+    border-radius: 10px;
+    li {
+    	border-right: 1px solid black;
+    	line-height: 20px;
+    	padding: 10px 6px;
+    	&:last-child {
+    		border-right: none;
+    	}
+    }
+}
+.nav-2 {
+	@include listas (black, 12px);
+	background-color: $gris-claro;
+	padding: 10px;
+    width: 76%;
+    margin: 0px auto 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    .black {
+		background-color: $black;
+		padding: 10px 10px;
+		margin: -10px;
+		margin-left: -20px;
+		margin-right: 10px;
+		border-top-left-radius: 10px;
+		border-bottom-left-radius: 10px;
+		color: white;
+		height: inherit;
+		width: auto;
+    }
+    li {
+    	list-style: disc;
+    	margin: 0px 12px;
+    	&:nth-child(2), &:nth-child(3), &:last-child {
+			list-style: none;
+		}
+		&:nth-child(2) {
+			margin-left: 20px;
+		}
+		&:nth-child(3) {
+			margin-left: -10px; 
+		}
+		.fa-chevron-left {
+			margin-left: -25px;
+		}
+		.fa-chevron-right {
+			margin-left: -10px;
+		}
+    }
+}
+
+		
