@@ -17,10 +17,17 @@
 	    	 	width: 270px; 
 	    	 	height: 107px;
 	    	 	display: block;
+	    	 	padding: 10px;
 	    	}
 	    	.im{
 	    		border: 2px solid $white;
 	    		margin: 10px;
+	    		float: left;
+	    		width: 60px;
+	    		height: 60px;
+	    	}
+	    	.textocolum {
+				padding-top: 10px;
 	    	}
 	}
 	.B{
@@ -40,24 +47,16 @@
 	 }
 	 .Grios{
 		color: $gris-oscuro;
-		text-align: center;
-		margin-top: -12px;
 
 	}
 	.gris{
 		color: $gris-oscuro;
 	}
 
-	 p {
+	p {
 	  	text-align: center;
 	  	padding-top: 20px;
 	  }
-
-}
-
-
-.all-columnistas {
-	padding: 30px 0px;
 	.btn-danger{
 		background: $rojo;
 		border: 1px solid #d10d0d;
@@ -72,6 +71,12 @@
 	    max-width: 200px;
 	    text-decoration: none;
 	}
+
+}
+
+
+.all-columnistas {
+	padding: 30px 0px;
 	.nav-pills{
 		background-color: $rojo;
 		height: 70px;
@@ -103,12 +108,20 @@
 		height: 90px;
 		display: block;
 		margin: 2px;
-	    .im{
-		    border: 2px solid $white;
-			margin: 10px;
-		    width: 60px;
-			height: 60px;		
-		}
+		.im{
+	    		border: 2px solid $white;
+	    		margin: 10px;
+	    		float: left;
+	    		width: 60px;
+	    		height: 60px;
+	    	}
+	    	.textocolum {
+				padding-top: 5px;
+				h6 {
+					margin-bottom: -5px;
+				}
+
+	    	}
 	}
 	.acti{
 		border: 1px solid $gris-oscuro;
@@ -118,12 +131,22 @@
 		display: block;
 		margin: 2px;
 		font-size: 11px;
+		color: black;
 		.im{
 		    border: 2px solid $white;
 			margin: 10px;
 		    width: 60px;
-			height: 60px;		
-		}		
+			height: 60px;
+			float: left;		
+		}
+		.textocolum {
+				padding-top: 5px;
+				h6 {
+					margin-bottom: -5px;
+				}
+
+	    	}
+
 	}
 	.font{
 		font-size: 11px;

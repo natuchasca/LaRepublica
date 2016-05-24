@@ -64,6 +64,9 @@
 		width: 140px;
 		margin: 0 auto;
 		margin-top: -40px;
+		a {
+			color: white;
+		}
 	}
 	.box-columnista {
 		width: 150px;
@@ -85,21 +88,35 @@
 
 .destacado {
 	margin: 50px 0px;
+	.lateral {
+		margin-left: 20px;
+	}
 	.destacados {
 		border: 1px solid grey;
-		width: 350px;
+		width: 300px;
 		height: 280px;
 		margin-bottom: 20px;
 		.red-text {
 			color: $rojo;
 			font-weight: bold;
 		}
-		.dest-img {
-			background-image: url("../image/img_especiales.jpg");
+		.img-destacada {
 			background-size: 350px auto;
 			background-repeat: no-repeat;
 			color: white;
 			@include backgradient;
+			&.dest1 {
+				background-image: url("../image/img_especiales.jpg");
+			}
+			&.dest2 {
+				background-image: url("../image/especial3.jpg");
+			}
+			&.dest3 {
+				background-image: url("../image/img_especiales_aside.jpg");
+			}
+			&.dest4 {
+				background-image: url("../image/especial4.jpg");
+			}
 			h4 {
 				display: block;
 				padding: 41% 0px 10px 20px;
@@ -112,6 +129,9 @@
 				padding-top: 29%;
 			}
 		}
+	}
+	.anuncio-home {
+		margin-left: 20px;
 	}
 }
 
@@ -263,17 +283,33 @@
 }
 
 .especiales {
-	.especial1 {
-		background-image: url("../image/img_especiales_aside.jpg");
-		width: 100%;
+	.img-aside-especial {
+		width: 300px;
 		height: 150px;
 		margin-top: 30px;
+		&.especial1 {
+			background-image: url("../image/img_especiales_aside.jpg")
+		}
+		&.especial2 {
+			background-image: url("../image/especiales2.jpg");
+			background-size: 100%;
+		}
+		&.especial3 {
+			background-image: url("../image/especiales3.jpg");
+			background-size: 100%;
+		}
+		&.especial4 {
+			background-image: url("../image/especiales4.jpg");
+			background-size: 100%;
+		}
 	}
-	h5 {
-		background-color: white;
-		color: black;
-		padding: 10px;
-		height: 150px;
+	.imgtag {
+		padding-top: 110px;
+		h5 {
+			color: black;
+			padding: 10px;
+			background-color: white;
+		}
 	}
 }
 
@@ -379,8 +415,19 @@
 }
 
 .infografias {
-	h4 {
-		margin: 20px 0px;
+	.infografia {
+		background-image: url("../image/img_especiales_aside.jpg");
+		width: 100%;
+		height: 150px;
+		margin-top: 30px;
+		.imgtag {
+			padding-top: 110px;
+			h5 {
+				color: black;
+				padding: 10px;
+				background-color: white;
+			}
+		}
 	}
 }
 

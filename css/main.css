@@ -1,8 +1,7 @@
-@charset "UTF-8";
 /*$tipografia: Arial, Tahoma;*/
 /* Especial box header */
 /* listas */
-/* Back gradient im├ígenes home */
+/* Back gradient imágenes home */
 /* Secciones aweita, el popular, Wapa, libero */
 /* CONTACTO partes formulario */
 /* HEADER */
@@ -167,6 +166,10 @@
     .nav-2 li .fa-chevron-right {
       margin-left: -10px; }
 
+.anuncio img {
+  width: 95%;
+  margin-left: 21px; }
+
 /* FOOTER */
 footer {
   background-color: #e3e3e3;
@@ -249,6 +252,8 @@ footer {
     width: 140px;
     margin: 0 auto;
     margin-top: -40px; }
+    .columnistas .etiqueta a {
+      color: white; }
   .columnistas .box-columnista {
     width: 150px;
     display: inline-block; }
@@ -264,31 +269,42 @@ footer {
 
 .destacado {
   margin: 50px 0px; }
+  .destacado .lateral {
+    margin-left: 20px; }
   .destacado .destacados {
     border: 1px solid grey;
-    width: 350px;
+    width: 300px;
     height: 280px;
     margin-bottom: 20px; }
     .destacado .destacados .red-text {
       color: #b81414;
       font-weight: bold; }
-    .destacado .destacados .dest-img {
-      background-image: url("../image/img_especiales.jpg");
+    .destacado .destacados .img-destacada {
       background-size: 350px auto;
       background-repeat: no-repeat;
       color: white; }
-      .destacado .destacados .dest-img .back-gradient {
+      .destacado .destacados .img-destacada .back-gradient {
         background: -moz-linear-gradient(top, rgba(252, 252, 252, 0) 0%, rgba(72, 72, 72, 0.1) 62%, rgba(29, 29, 29, 0.7) 77%, rgba(3, 3, 3, 0.79) 86%, rgba(3, 3, 3, 0.92) 100%);
         width: 100%;
         height: inherit; }
-      .destacado .destacados .dest-img h4 {
+      .destacado .destacados .img-destacada.dest1 {
+        background-image: url("../image/img_especiales.jpg"); }
+      .destacado .destacados .img-destacada.dest2 {
+        background-image: url("../image/especial3.jpg"); }
+      .destacado .destacados .img-destacada.dest3 {
+        background-image: url("../image/img_especiales_aside.jpg"); }
+      .destacado .destacados .img-destacada.dest4 {
+        background-image: url("../image/especial4.jpg"); }
+      .destacado .destacados .img-destacada h4 {
         display: block;
         padding: 41% 0px 10px 20px;
         font-weight: bold; }
-      .destacado .destacados .dest-img .textp1 {
+      .destacado .destacados .img-destacada .textp1 {
         padding-top: 35%; }
-      .destacado .destacados .dest-img .textp2 {
+      .destacado .destacados .img-destacada .textp2 {
         padding-top: 29%; }
+  .destacado .anuncio-home {
+    margin-left: 20px; }
 
 .ultimas-noticias {
   margin: 50px 0px; }
@@ -434,16 +450,27 @@ footer {
     width: 60%;
     margin: -10px auto; }
 
-.especiales .especial1 {
-  background-image: url("../image/img_especiales_aside.jpg");
-  width: 100%;
+.especiales .img-aside-especial {
+  width: 300px;
   height: 150px;
   margin-top: 30px; }
-.especiales h5 {
-  background-color: white;
-  color: black;
-  padding: 10px;
-  height: 150px; }
+  .especiales .img-aside-especial.especial1 {
+    background-image: url("../image/img_especiales_aside.jpg"); }
+  .especiales .img-aside-especial.especial2 {
+    background-image: url("../image/especiales2.jpg");
+    background-size: 100%; }
+  .especiales .img-aside-especial.especial3 {
+    background-image: url("../image/especiales3.jpg");
+    background-size: 100%; }
+  .especiales .img-aside-especial.especial4 {
+    background-image: url("../image/especiales4.jpg");
+    background-size: 100%; }
+.especiales .imgtag {
+  padding-top: 110px; }
+  .especiales .imgtag h5 {
+    color: black;
+    padding: 10px;
+    background-color: white; }
 
 .caricaturas a {
   color: #b81414; }
@@ -521,8 +548,17 @@ footer {
   .pregunta a {
     color: #b81414; }
 
-.infografias h4 {
-  margin: 20px 0px; }
+.infografias .infografia {
+  background-image: url("../image/img_especiales_aside.jpg");
+  width: 100%;
+  height: 150px;
+  margin-top: 30px; }
+  .infografias .infografia .imgtag {
+    padding-top: 110px; }
+    .infografias .infografia .imgtag h5 {
+      color: black;
+      padding: 10px;
+      background-color: white; }
 
 .libero {
   border: 1px solid grey;
@@ -651,10 +687,16 @@ footer {
       background-color: #e3e3e3;
       width: 270px;
       height: 107px;
-      display: block; }
+      display: block;
+      padding: 10px; }
     .all-columnas .cuadro .im {
       border: 2px solid #FFFFFF;
-      margin: 10px; }
+      margin: 10px;
+      float: left;
+      width: 60px;
+      height: 60px; }
+    .all-columnas .cuadro .textocolum {
+      padding-top: 10px; }
   .all-columnas .B {
     color: #141414; }
   .all-columnas .B1 {
@@ -666,18 +708,13 @@ footer {
     color: #141414;
     vertical-align: middle; }
   .all-columnas .Grios {
-    color: #9C9393;
-    text-align: center;
-    margin-top: -12px; }
+    color: #9C9393; }
   .all-columnas .gris {
     color: #9C9393; }
   .all-columnas p {
     text-align: center;
     padding-top: 20px; }
-
-.all-columnistas {
-  padding: 30px 0px; }
-  .all-columnistas .btn-danger {
+  .all-columnas .btn-danger {
     background: #b81414;
     border: 1px solid #d10d0d;
     display: block;
@@ -690,6 +727,9 @@ footer {
     border-radius: 3px;
     max-width: 200px;
     text-decoration: none; }
+
+.all-columnistas {
+  padding: 30px 0px; }
   .all-columnistas .nav-pills {
     background-color: #b81414;
     height: 70px; }
@@ -718,8 +758,13 @@ footer {
     .all-columnistas .recuadro2 .im {
       border: 2px solid #FFFFFF;
       margin: 10px;
+      float: left;
       width: 60px;
       height: 60px; }
+    .all-columnistas .recuadro2 .textocolum {
+      padding-top: 5px; }
+      .all-columnistas .recuadro2 .textocolum h6 {
+        margin-bottom: -5px; }
   .all-columnistas .acti {
     border: 1px solid #9C9393;
     background: #FFFFFF;
@@ -727,12 +772,18 @@ footer {
     height: 90px;
     display: block;
     margin: 2px;
-    font-size: 11px; }
+    font-size: 11px;
+    color: black; }
     .all-columnistas .acti .im {
       border: 2px solid #FFFFFF;
       margin: 10px;
       width: 60px;
-      height: 60px; }
+      height: 60px;
+      float: left; }
+    .all-columnistas .acti .textocolum {
+      padding-top: 5px; }
+      .all-columnistas .acti .textocolum h6 {
+        margin-bottom: -5px; }
   .all-columnistas .font {
     font-size: 11px; }
 
