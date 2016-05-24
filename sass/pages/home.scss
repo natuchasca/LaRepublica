@@ -22,7 +22,7 @@
 		@include backgradient;
 		h2 {
 			display: block;
-			padding: 83% 0px 0px 20px;
+			padding: 83% 5px 0px 20px;
 		}
 	}
 	.img2 {
@@ -82,9 +82,6 @@
 	}
 }
 
-.red-text {
-	color: $rojo;
-}
 
 .destacado {
 	margin: 50px 0px;
@@ -93,6 +90,10 @@
 		width: 350px;
 		height: 280px;
 		margin-bottom: 20px;
+		.red-text {
+			color: $rojo;
+			font-weight: bold;
+		}
 		.dest-img {
 			background-image: url("../image/img_especiales.jpg");
 			background-size: 350px auto;
@@ -102,6 +103,13 @@
 			h4 {
 				display: block;
 				padding: 41% 0px 10px 20px;
+				font-weight: bold;
+			}
+			.textp1 {
+				padding-top: 35%;
+			}
+			.textp2 {
+				padding-top: 29%;
 			}
 		}
 	}
@@ -115,6 +123,8 @@
 		font-weight: bold;
 	}
 	.news {
+		height: 100%;
+		width: 100%;
 		margin: 20px 0px;
 		padding-right: 10px;
 		.fecha {
@@ -123,9 +133,32 @@
 		h4 {
 			font-weight: bold;
 		}
-		img {
+		.photo-new {
+			margin-right: 20px;
 			float: left;
-			margin-right: 10px;
+			width: 200px;
+			height: auto;
+		}
+		p {
+			display: inline;
+			padding: 5px 0px;
+		}
+		.bajada {
+			padding-top: 20px;
+			h6 {
+				display: inline-block;
+			}
+			.socials {
+				height: 20px;
+				width: auto;
+			}
+			.bullet {
+				float: none;
+				margin: 0px 10px;
+			}
+			.icon-red {
+				color: $rojo;
+			}
 		}
 	}
 }
@@ -166,40 +199,233 @@
 		}
 	}
 }
-.aweita {
-	border: 1px solid grey;
-	padding: 20px 10px 0px 10px;
-	margin-bottom: 30px;
-	.logo-aweita {
-		margin-bottom: 20px;
+.aweita {@include seccionaside (#9D3EC7);}
+
+.fotos {
+	width: 100%;
+	height: auto;
+	border-top: 5px solid #6E7B98;
+	.tag-aside {
+		font-size: 15px;
+		color: white;
+		background-color: #6E7B98;
+		width: 60%;
+		margin: -10px auto;
 	}
-	.aweita-content {
+	img {
+		margin-top: 40px;
+		margin-bottom: 10px;
+		border: 2px solid #6E7B98;
+	}
+	h5 {
+		color: black;
+	}
+	.foto-box {
 		display: block;
-		height: 80px;
+		height: 90px;
+		padding-top: 20px;
 		font-size: 12px;
 		img {
+			width: 100px;
+			height: auto;
 			float: left;
-			margin-right: 5px;
-		}
-	}
-	a {
-		color: black;
-		padding-bottom: 10px;
-		border-bottom: 5px solid #9D3EC7;
-		display: block;
-		width: 60%;
-		margin: 0 auto;
-		span {
-			color: #9D3EC7;
+			margin-right: 10px;
+			margin-top: 5px;
 		}
 	}
 }
-.fotos {
+.especiales, .blogueros-aside, .infografias {
+	width: 100%;
+	height: auto;
+	border-top: 5px solid #6E7B98;
+	margin-top: 40px;
 	.tag-aside {
-		font-size: 20px;
+		font-size: 15px;
 		color: white;
 		background-color: #6E7B98;
-		width: 70%;
+		width: 60%;
+		margin: -10px auto;
+	}
+}
+
+.prints, .caricaturas {
+	width: 100%;
+	height: auto;
+	border-top: 5px solid $rojo;
+	margin-top: 40px;
+	.tag-aside {
+		font-size: 15px;
+		color: white;
+		background-color: $rojo;
+		width: 60%;
+		margin: -10px auto;
+	}
+}
+
+.especiales {
+	.especial1 {
+		background-image: url("../image/img_especiales_aside.jpg");
+		width: 100%;
+		height: 150px;
+		margin-top: 30px;
+	}
+	h5 {
+		background-color: white;
+		color: black;
+		padding: 10px;
+		height: 150px;
+	}
+}
+
+.caricaturas {
+	a {
+		color: $rojo;
+	}
+	h4 {
+		margin: 20px 0px;
+	}
+	img {
+		margin-bottom: 10px;
+	}
+}
+
+.blogueros-aside {
+	.blogger {
+		display: block;
+		height: 90px;
+		padding-top: 20px;
+		font-size: 12px;
+		img {
+			width: 60px;
+			height: 60px;
+			float: left;
+			margin-right: 10px;
+			margin-top: 5px;
+		}
+		h6 {
+			margin-bottom: 1px;
+		}
+		h5 {
+			color: black;
+		}
+	}
+	a {
+		color: $rojo;
+	}
+}
+
+
+.prints {
+	h4 {
+		margin: 20px 0px;
+	}
+	.print {
+		display: block;
+		height: 170px;
+		padding-top: 20px;
+		font-size: 12px;
+		font-weight: bold;
+		.printiny {
+			width: auto;
+			height: 150px;
+			float: left;
+			margin-right: 10px;
+		}
+		h4 {
+			padding-top: 30px;
+			font-size: 14px;
+			padding-right: 20px;
+			font-weight: bold;
+		}
+		a {
+			color: $rojo;
+		}
+	}
+	img {
+		width: 100%;
+		height: auto;
+	}	
+}
+
+.pregunta {
+	background-image: url("../image/trama_square.jpg");
+	background-repeat: repeat;
+	width: 100%;
+	height: auto;
+	margin-bottom: 30px;
+	padding: 10px 0px;
+	.pregunta-hoy, .pregunta-ayer {
+		background-color: white;
+		width: 90%;
+		height: 80%;
 		margin: 0 auto;
+		padding: 55px 20px 10px 20px;
+		font-size: 12px;
+	}
+	button {
+		width: 60%;
+		margin-bottom: 10px;
+		background-color: $rojo;
+		border: none;
+		border-radius: 3px;
+		color: white;
+		padding: 2px;
+		margin: 60px auto 5px;
+		display: block;
+	}
+	a {
+		color: $rojo;
+	}
+}
+
+.infografias {
+	h4 {
+		margin: 20px 0px;
+	}
+}
+
+.libero {@include seccionaside ($rojo);}
+.elpopular {@include seccionaside (yellow);}
+.wapa {@include seccionaside (red);}
+
+.reportero {
+	background-image: url("../image/trama_square.jpg");
+	background-repeat: repeat;
+	width: 100%;
+	height: auto;
+	margin-bottom: 30px;
+	padding: 20px 0px;
+	.report {
+		background-color: white;
+		width: 90%;
+		height: 80%;
+		margin: -40 auto;
+		padding: 55px 20px 10px 20px;
+		font-size: 12px;
+		h5 {
+			color: black;
+		}
+		.car {
+			width: 100%;
+			height: auto;
+			margin-top: 20px;
+		}
+	}	
+	.camera {
+		margin-top: -5px;
+	}
+	button {
+		width: 60%;
+		margin-bottom: 10px;
+		background-color: $rojo;
+		border: none;
+		border-radius: 3px;
+		color: white;
+		padding: 2px;
+		margin: 60px auto 5px;
+		display: block;
+	}
+	a {
+		color: $rojo;
 	}
 }
