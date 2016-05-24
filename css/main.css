@@ -756,6 +756,7 @@ footer {
       display: block; }
     .blogs .cuadro .im {
       border: 2px solid #FFFFFF;
+      float: left;
       margin: 10px; }
   .blogs .B {
     color: #141414; }
@@ -766,11 +767,11 @@ footer {
     text-align: center; }
   .blogs .B2 {
     color: #141414;
-    vertical-align: middle; }
+    vertical-align: middle;
+    padding-top: 20px; }
   .blogs .Grios {
     color: #9C9393;
-    text-align: center;
-    margin-top: -12px; }
+    padding-top: 12px; }
   .blogs .gris {
     color: #9C9393; }
   .blogs p {
