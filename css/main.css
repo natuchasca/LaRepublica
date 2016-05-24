@@ -57,53 +57,57 @@
   padding: 50px 0px; }
   .logo-part img {
     margin-top: 10px; }
-  .logo-part .especial-box.home {
-    border: 1px solid #e3e3e3;
-    border-bottom: 3px solid #141414;
-    padding: 12px 0px;
-    font-size: 12px; }
-    .logo-part .especial-box.home .etiqueta {
-      background-color: #141414;
-      color: white;
-      width: 60%;
-      margin: -20px auto 5px;
-      box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.49); }
-  .logo-part .especial-box.redtag {
-    border: 1px solid #e3e3e3;
-    border-bottom: 3px solid #b81414;
-    padding: 12px 0px;
-    font-size: 12px; }
-    .logo-part .especial-box.redtag .etiqueta {
-      background-color: #b81414;
-      color: white;
-      width: 60%;
-      margin: -20px auto 5px;
-      box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.49); }
-    .logo-part .especial-box.redtag .etiqueta {
-      width: 30%; }
-  .logo-part .editorial-home img {
-    display: inline; }
-    .logo-part .editorial-home img.editorial {
-      margin-top: -10px;
-      background-color: #141414;
-      padding: 5px 10px 5px 5px;
-      box-shadow: -2px 0px 3px 0px rgba(0, 0, 0, 0.49); }
-    .logo-part .editorial-home img.author {
+  .logo-part .especial-box {
+    margin: 10px 0px; }
+    .logo-part .especial-box.home {
+      border: 1px solid #e3e3e3;
+      border-bottom: 3px solid #141414;
+      padding: 12px 0px;
+      font-size: 12px; }
+      .logo-part .especial-box.home .etiqueta {
+        background-color: #141414;
+        color: white;
+        width: 60%;
+        margin: -20px auto 5px;
+        box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.49); }
+    .logo-part .especial-box.redtag {
+      border: 1px solid #e3e3e3;
+      border-bottom: 3px solid #b81414;
+      padding: 12px 0px;
+      font-size: 12px; }
+      .logo-part .especial-box.redtag .etiqueta {
+        background-color: #b81414;
+        color: white;
+        width: 60%;
+        margin: -20px auto 5px;
+        box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.49); }
+      .logo-part .especial-box.redtag .etiqueta {
+        width: 30%; }
+  .logo-part .editorial-home {
+    margin: 10px 0px; }
+    .logo-part .editorial-home img {
+      display: inline; }
+      .logo-part .editorial-home img.editorial {
+        margin-top: -10px;
+        background-color: #141414;
+        padding: 5px 10px 5px 5px;
+        box-shadow: -2px 0px 3px 0px rgba(0, 0, 0, 0.49); }
+      .logo-part .editorial-home img.author {
+        margin-left: -10px;
+        margin-top: -10px; }
+    .logo-part .editorial-home .texto-editorial {
+      display: inline-block;
+      vertical-align: middle;
+      height: 60px;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      padding: 0px 10px;
       margin-left: -10px;
-      margin-top: -10px; }
-  .logo-part .editorial-home .texto-editorial {
-    display: inline-block;
-    vertical-align: middle;
-    height: 60px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    padding: 0px 10px;
-    margin-left: -10px;
-    margin-top: -10px;
-    background-color: white;
-    border: 1px solid #e3e3e3; }
-    .logo-part .editorial-home .texto-editorial h5 {
-      margin-bottom: -5px; }
+      margin-top: -10px;
+      background-color: white;
+      border: 1px solid #e3e3e3; }
+      .logo-part .editorial-home .texto-editorial h5 {
+        margin-bottom: -5px; }
 
 /* Los NAV rojo y gris bajo el logo de la republica */
 .nav-1 {
@@ -552,7 +556,8 @@ footer {
   background-image: url("../image/img_especiales_aside.jpg");
   width: 100%;
   height: 150px;
-  margin-top: 30px; }
+  margin-top: 30px;
+  background-repeat: no-repeat; }
   .infografias .infografia .imgtag {
     padding-top: 110px; }
     .infografias .infografia .imgtag h5 {
@@ -858,9 +863,13 @@ footer {
       padding: 10px 100px;
       color: white; }
 
-body {
-  background-image: url("../image/13267862_10153685807771973_2671341438060082488_n.jpg"), url("../image/13227038_10153685807816973_1330493536409003322_n.jpg");
-  background-position: top 300px left, top 300px right;
-  background-repeat: no-repeat; }
+@media (min-width: 992px) {
+  body {
+    background-image: url("../image/13267862_10153685807771973_2671341438060082488_n.jpg"), url("../image/13227038_10153685807816973_1330493536409003322_n.jpg");
+    background-position: top 300px left, top 300px right;
+    background-repeat: no-repeat; } }
+@media (max-width: 480px) and (min-width: 320px) {
+  .logo-part .logo-xs, .logo-part .especial-box, .logo-part .editorial-home {
+    margin: 20px 0px; } }
 
 /*# sourceMappingURL=main.css.map */

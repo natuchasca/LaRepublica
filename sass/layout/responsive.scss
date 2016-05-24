@@ -1,0 +1,16 @@
+@media (min-width: 992px) {
+	body {
+		background-image: url("../image/13267862_10153685807771973_2671341438060082488_n.jpg"),
+		url("../image/13227038_10153685807816973_1330493536409003322_n.jpg");
+		background-position: top 300px left, top 300px right;
+		background-repeat: no-repeat;
+	}
+}
+
+@media (max-width: 480px) and (min-width: 320px) {
+		.logo-part {
+		.logo-xs, .especial-box, .editorial-home {
+			margin: 20px 0px;
+		}
+	}
+}

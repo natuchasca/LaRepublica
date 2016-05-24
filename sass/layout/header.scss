@@ -69,6 +69,7 @@
 		margin-top: 10px;
 	}
 	.especial-box {
+		margin: 10px 0px;
 		&.home {
 			@include especialbox ($black,$black);
 		}
@@ -80,6 +81,7 @@
 		}
 	}
 	.editorial-home {
+		margin: 10px 0px;
 		img {
 			display: inline;
 			&.editorial {
