@@ -81,6 +81,7 @@
 		}
 	}
 	.editorial-home {
+		color: black;
 		margin: 10px 0px;
 		img {
 			display: inline;
@@ -118,12 +119,13 @@
 	@include listas (white, 12px);
 	background-color: $rojo;
     width: 72%;
+    height: 40px;
     margin: 0px auto 10px;
     border-radius: 10px;
     li {
     	border-right: 1px solid black;
     	line-height: 20px;
-    	padding: 10px 6px;
+    	padding: 10px 5px;
     	&:last-child {
     		border-right: none;
     	}
@@ -151,7 +153,7 @@
     }
     li {
     	list-style: disc;
-    	margin: 0px 12px;
+    	margin: 0px 10px;
     	&:nth-child(2), &:nth-child(3), &:last-child {
 			list-style: none;
 		}

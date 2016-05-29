@@ -184,11 +184,10 @@
 }
 
 
+
 /* ASIDE HOME */
 .suscribete {
-	background-image: url("../image/trama_square.jpg");
-	background-repeat: repeat;
-	width: 100%;
+	@include trama;
 	height: 220px;
 	padding: 15% 0px 0% 0px;
 	margin-bottom: 30px;
@@ -225,13 +224,7 @@
 	width: 100%;
 	height: auto;
 	border-top: 5px solid #6E7B98;
-	.tag-aside {
-		font-size: 15px;
-		color: white;
-		background-color: #6E7B98;
-		width: 60%;
-		margin: -10px auto;
-	}
+	@include tagaside (#6E7B98);
 	img {
 		margin-top: 40px;
 		margin-bottom: 10px;
@@ -259,13 +252,7 @@
 	height: auto;
 	border-top: 5px solid #6E7B98;
 	margin-top: 40px;
-	.tag-aside {
-		font-size: 15px;
-		color: white;
-		background-color: #6E7B98;
-		width: 60%;
-		margin: -10px auto;
-	}
+	@include tagaside (#6E7B98);
 }
 
 .prints, .caricaturas {
@@ -273,13 +260,8 @@
 	height: auto;
 	border-top: 5px solid $rojo;
 	margin-top: 40px;
-	.tag-aside {
-		font-size: 15px;
-		color: white;
-		background-color: $rojo;
-		width: 60%;
-		margin: -10px auto;
-	}
+	@include tagaside ($rojo);
+	@include linksrojos;
 }
 
 .especiales {
@@ -303,20 +285,10 @@
 			background-size: 100%;
 		}
 	}
-	.imgtag {
-		padding-top: 110px;
-		h5 {
-			color: black;
-			padding: 10px;
-			background-color: white;
-		}
-	}
+	@include whitetag;
 }
 
 .caricaturas {
-	a {
-		color: $rojo;
-	}
 	h4 {
 		margin: 20px 0px;
 	}
@@ -345,9 +317,7 @@
 			color: black;
 		}
 	}
-	a {
-		color: $rojo;
-	}
+	@include linksrojos;
 }
 
 
@@ -373,9 +343,6 @@
 			padding-right: 20px;
 			font-weight: bold;
 		}
-		a {
-			color: $rojo;
-		}
 	}
 	img {
 		width: 100%;
@@ -384,9 +351,7 @@
 }
 
 .pregunta {
-	background-image: url("../image/trama_square.jpg");
-	background-repeat: repeat;
-	width: 100%;
+	@include trama;
 	height: auto;
 	margin-bottom: 30px;
 	padding: 10px 0px;
@@ -409,9 +374,7 @@
 		margin: 60px auto 5px;
 		display: block;
 	}
-	a {
-		color: $rojo;
-	}
+	@include linksrojos;
 }
 
 .infografias {
@@ -421,14 +384,7 @@
 		height: 150px;
 		margin-top: 30px;
 		background-repeat: no-repeat;
-		.imgtag {
-			padding-top: 110px;
-			h5 {
-				color: black;
-				padding: 10px;
-				background-color: white;
-			}
-		}
+		@include whitetag;
 	}
 }
 
@@ -437,9 +393,7 @@
 .wapa {@include seccionaside (red);}
 
 .reportero {
-	background-image: url("../image/trama_square.jpg");
-	background-repeat: repeat;
-	width: 100%;
+	@include trama;
 	height: auto;
 	margin-bottom: 30px;
 	padding: 20px 0px;
@@ -473,7 +427,5 @@
 		margin: 60px auto 5px;
 		display: block;
 	}
-	a {
-		color: $rojo;
-	}
+	@include linksrojos;
 }
